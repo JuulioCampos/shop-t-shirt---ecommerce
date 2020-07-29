@@ -1,0 +1,63 @@
+*{
+    font-family: 'Red Rose', cursive;
+}
+.h1-promote{
+    text-shadow: 0px 0px 15px rgba(255, 0, 0, 1);
+    padding: 25px;
+}
+.menuicon{
+    font-size: 20px;
+    color: white;
+}
+/* a.navbar-brand {
+    margin-left: 25vh;
+} */
+.nav-item {
+    padding-left: 5px;
+}
+    a.nav-link {
+    background-color: #5c5c5c;
+    -webkit-box-shadow: 0px 0px 0px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 0px 1px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 0px 1px rgba(0,0,0,0.75);
+    height: 35px;
+}
+a.nav-link:hover {
+    background-color: #fd6666;
+}
+
+.card-body{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+}
+
+
+.card{
+    box-shadow: 0px 2px 11px -6px rgba(0,0,0,0.75);
+}
+
+.seta{
+    background-color: #ffc107 !important;
+}
+.seta:hover{
+    background-color: red ;
+}
+.setac:hover{
+    background-color:#00000007 ;
+    border-radius: 25%;
+}
+@media screen  and (min-width:1440px){
+    .carousel-control-prev {
+        left: 0;
+        margin-left: -100px;
+    }
+    .carousel-control-next {
+        margin-right: -30px ;
+    }
+    .cards-struct{
+        padding-left: 50px;
+    }
+}
